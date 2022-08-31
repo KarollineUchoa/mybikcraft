@@ -1,0 +1,104 @@
+:root {
+  --primary-color-font: #ffffff;
+  --details-color: #FFBB00;
+  --second-color: #111111;
+  --third-color: #B2B2B2;
+  --background-dark: #000000;
+  --backgroung-light: #E5E5E5;
+}
+body {
+  background-color: var(--background-dark);
+  color: var(--primary-color-font);
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+  max-width: 100vw;
+}
+
+p, h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 100px;
+}
+
+.header img {
+  max-width: 100%;
+  height: 32px;
+}
+
+.header ul{
+  display: flex;
+  gap: 40px;
+}
+
+.header ul li{
+  list-style: none;
+  cursor: pointer;
+  font-size: 1.125rem;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 88px;
+  text-align: left;
+  align-items: center;
+}
+
+.titulo {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 4.5rem;
+ }
+
+ .introducao {
+  width: 512px;
+  padding: 192px 88px 128px 220px;
+}
+ 
+ .titulo span {
+  color: var(--details-color);
+ }
+
+ .introducao p {
+  color: var(--third-color);
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin: 32px 0px 20px 0px;
+}
+
+.introducao a {
+  background: linear-gradient(180deg, #FFBF00 0%, #F2A50C 100%);
+  color: #332200;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 16px 32px;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.main img {
+  width: 100%;
+}
+
+.escolha {
+  background-color: var(--backgroung-light);
+}
+
+.escolha h2 {
+  color: var(--second-color);
+  margin-left: 220px;
+}
+
+.escolha-img {
+  display: flex;
+}
+
+.depoimento {
+  font-family: 'Merriweather', serif;
+}
